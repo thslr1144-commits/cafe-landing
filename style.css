@@ -1,0 +1,20 @@
+:root{--brown:#4b2e1e;--cream:#faf3e8;--accent:#c2813f}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:system-ui,"Noto Sans KR",sans-serif;color:var(--brown);background:#fff;line-height:1.6}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:16px 24px;position:sticky;top:0;background:#fffc;backdrop-filter:blur(8px)}
+.logo{font-weight:800;font-size:1.3rem;color:var(--brown);text-decoration:none}
+.nav nav a{margin-left:20px;color:var(--brown);text-decoration:none}
+.hero{text-align:center;padding:120px 24px;background:linear-gradient(135deg,#6f4630,#3a2216);color:#fff}
+.hero h1{font-size:clamp(2rem,6vw,3.5rem);line-height:1.25}
+.hero p{margin:16px 0 28px;opacity:.85}
+.btn{display:inline-block;padding:12px 28px;background:var(--accent);color:#fff;border-radius:999px;text-decoration:none;font-weight:600}
+.section{max-width:960px;margin:0 auto;padding:72px 24px;text-align:center}
+.section.alt{max-width:none;background:var(--cream)}
+.section h2{font-size:1.8rem;margin-bottom:24px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:var(--cream);border-radius:16px;padding:28px 20px}
+.emoji{font-size:2.5rem}
+.card h3{margin:8px 0 4px}
+.card strong{display:block;margin-top:12px;color:var(--accent)}
+footer{text-align:center;padding:28px;background:var(--brown);color:#fff;font-size:.9rem}
